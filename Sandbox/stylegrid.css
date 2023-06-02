@@ -1,0 +1,21 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    display : grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;   
+
+}
+.card {
+    background-color: burlywood;
+    padding: 10px;
+    border:black 2.5px solid;
+
+}
+/* This command rule only affects the paragraphs inside the card div tags */
+.card p {
+    font-family: Arial, Helvetica, sans-serif;
+}
