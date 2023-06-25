@@ -1,0 +1,22 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+.heading img {
+    max-width: 100%;
+    height: auto;
+}
+
+.heading a:link, a:visited {
+    text-decoration: none;
+    margin: 0px 30px;
+    color: rgb(0, 17, 113);
+    
+}
+.heading p{
+    text-align: center;
+}

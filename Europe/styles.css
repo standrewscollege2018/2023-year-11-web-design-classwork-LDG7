@@ -1,24 +1,43 @@
 * {
     margin:0px;
-    padding:0px;
+    padding:5px;
 }
 
 body {
-    background-color: grey;
+    background-color: rgb(191, 191, 191);
     padding: 10px;
 }
 h1 {
-    color: yellow;
+    color: rgb(255, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
 } 
     
 
 p {
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
 }
+.countrycontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.card {
+    border: 1px black solid;
+    border-radius: 10px;
+    margin:10px;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
