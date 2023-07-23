@@ -1,0 +1,21 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Import and set up new font */
+@font-face {
+    font-family: Zillaslab;
+    src: url(Zillaslab-regular.ttf);
+}
+
+.main_banner {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    text-align:center;
+    height: 80px;
+}
